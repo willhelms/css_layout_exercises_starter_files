@@ -1,35 +1,45 @@
 main{
 	padding: 30px;
 	font-size: 0px;
-	margin: auto;
 }
 
-.inner{
-	border: 1px 1px black;
+.box-parent{
+	margin-top:90px;
+	margin: auto;
 	width: 800px;
+}
+
+.box{
+	border: 1px solid black;
 	display: inline-block;
 }
 
-.one{
-	background-color: green;
+.layer1{
 	width: 50%;
 	height: 200px;
 }
 
-.two{
-	background-color: blue;
-
-}
-
-.three{
-	background-color: grey;
-}
-
-.four{
-	background-color: black;
-}
-
-.five{
-	background-color: orange;
+.layer2{
 	width: 33.33%;
+	height: 300px;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.black {
+  background-color: black;
+}
+
+.orange {
+  background-color: orange;
 }
