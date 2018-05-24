@@ -9,6 +9,10 @@ main{
 	width: 800px;
 }
 
+.centered{
+	text-align: center;
+}
+
 .box{
 	border: 1px solid black;
 	display: inline-block;
