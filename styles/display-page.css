@@ -1,51 +1,44 @@
-main {
-  font-size: 0;
+main{
+	font-size: 0px;
 }
 
-
-.box-parent {
-  margin-top: 90px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 800px;
+centered{
+	text-align: center;
 }
 
-.box {
-  border: 1px solid black;
-  display: inline-block;
+outer{
+	width: 800px;
+	margin: auto;
+
 }
 
-.box_half {
-  width: 50%;
-  height: 200px;
+inner1{
+	width: 50%;
+	height: 200px;
 }
 
-.box_third {
-  width: 33.33%;
-  height: 300px;
+inner2{
+	width: 33.33%;
+	height: 300px;
 }
 
-.black {
-  background-color: black;
-  border: 1px solid;
+box{
+	display: inline-block;
+	border: 1px solid black;
 }
 
-.green {
-  background-color: green;
+black{
+	background-color: black;
 }
-
-.grey {
-  background-color: grey;
+blue{
+	background-color: blue;
 }
-
-.blue {
-  background-color: blue;
+green{
+	background-color: green;
 }
-
-.orange {
-  background-color: orange
+gray{
+	background-color: gray;
 }
-
-.centered {
-  text-align: center;
+orange{
+	background-color: orange;
 }
