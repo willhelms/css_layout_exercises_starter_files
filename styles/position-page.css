@@ -1,1 +1,55 @@
+html { 
+  margin: 0px;
+  padding: 0px;
+  background: url(images/outerspace_landscape.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav {
+  padding-left: 60px;
+  padding-right: 60px;
+  position: fixed;
+  width: 100%;
+  background-color: gray;
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+li:after{
+  content: ' \007C';
+}
+
+
+.logo{
+  bottom: 30px;
+}
+
+.dotted{
+  border: 10px green dotted;
+  margin: 0 auto;
+  width: 600px;
+  height: 300px;
+  position: relative;
+}
+
+.dog{
+  
+}
+
+.cat{
+  
+}
+
+.geometry{
+  width: 200px;
+  height: 200px;
+}
+
+
 
